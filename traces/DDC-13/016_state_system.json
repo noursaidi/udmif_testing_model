@@ -1,0 +1,18 @@
+{
+  "last_config" : "2018-08-26T21:39:29Z",
+  "last_start" : "2022-11-16T15:49:30Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "pubber-10947",
+  "software" : {
+    "firmware" : "v1"
+  },
+  "status" : {
+    "message" : "success",
+    "category" : "system.config.apply",
+    "timestamp" : "2022-11-16T15:49:33Z",
+    "level" : 300
+  },
+  "timestamp" : "2022-11-16T15:49:35Z",
+  "version" : "1.3.14"
+}

@@ -1,9 +1,8 @@
 {
-  "deviceRegistryLocation" : "us-central1",
-  "deviceNumId" : "2586079828225830",
+  "deviceNumId" : "00000062256947",
   "subFolder" : "system",
-  "wasBase64" : "false",
   "deviceRegistryId" : "UK-ABC-XYZ",
+  "subType" : "event",
   "deviceId" : "AHU-2",
-  "projectId" : "udmif-arup1"
+  "projectId" : "playback-project"
 }
