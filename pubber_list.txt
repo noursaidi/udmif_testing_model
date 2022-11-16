@@ -1,5 +1,5 @@
 AHU-1
-AHU-2 missingPoint=123123
+AHU-2
 AHU-3
 AHU-4
 AHU-5
@@ -13,17 +13,17 @@ DDC-6
 DDC-7
 DDC-8
 DDC-9
-DDC-10
-DDC-11
-DDC-12
-DDC-13
-DDC-14
-DDC-15
-DDC-16
-DDC-17
-DDC-18
-DDC-19
-DDC-20
+DDC-10 noHardware
+DDC-11 noHardware
+DDC-12 noHardware
+DDC-13 noHardware
+DDC-14 noHardware
+DDC-15 noHardware
+DDC-16 noHardware
+DDC-17 noHardware
+DDC-18 noHardware
+DDC-19 noHardware
+DDC-20 
 DDC-21
 DDC-22
 DDC-23
@@ -54,26 +54,26 @@ DDC-47
 DDC-48
 DDC-49
 DDC-50
-FCU-1
-FCU-2
-FCU-3
-FCU-4
-FCU-5
-FCU-6
-FCU-7
-FCU-8
-FCU-9
-FCU-10
-FCU-11
-FCU-12
-FCU-13
-FCU-14
-FCU-15
-FCU-16
-FCU-17
-FCU-18
-FCU-19
-FCU-20
+FCU-1 extraPoint=enabled
+FCU-2 extraPoint=enabled
+FCU-3 extraPoint=enabled
+FCU-4 extraPoint=enabled
+FCU-5 extraPoint=enabled
+FCU-6 extraPoint=enabled
+FCU-7 extraPoint=enabled
+FCU-8 extraPoint=enabled
+FCU-9 extraPoint=enabled
+FCU-10 extraPoint=enabled missingPoint=cooling_water_valve_percentage_sensor noHardware extraField=pointset
+FCU-11 extraPoint=enabled missingPoint=cooling_water_valve_percentage_sensor noHardware extraField=pointset
+FCU-12 extraPoint=enabled missingPoint=cooling_water_valve_percentage_sensor noHardware extraField=pointset
+FCU-13 missingPoint=cooling_water_valve_percentage_sensor
+FCU-14 missingPoint=cooling_water_valve_percentage_sensor
+FCU-15 missingPoint=cooling_water_valve_percentage_sensor
+FCU-16 missingPoint=cooling_water_valve_percentage_sensor
+FCU-17 missingPoint=cooling_water_valve_percentage_sensor
+FCU-18 missingPoint=cooling_water_valve_percentage_sensor
+FCU-19 missingPoint=cooling_water_valve_percentage_sensor
+FCU-20 missingPoint=cooling_water_valve_percentage_sensor
 FCU-21
 FCU-22
 FCU-23
@@ -104,13 +104,3 @@ FCU-47
 FCU-48
 FCU-49
 FCU-50
-MTR-1
-MTR-2
-MTR-3
-MTR-4
-MTR-5
-MTR-6
-MTR-7
-MTR-8
-MTR-9
-MTR-10
