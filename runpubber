@@ -1,0 +1,15 @@
+#!/bin/bash
+
+UDMIDIR="~/udmi"
+SRC_LIST=pubber_list.txt
+PUBBER_OUT=/tmp/pubber.out
+PROJECT_ID=daq1-273309
+
+while read -u 7 device_id pubber_opts; do
+    rm -f $PUBBER_OUT
+    echo $device_id
+    $UDMIDIR/bin/pubber . $PROJECT_ID $device_id $serial_no $pubber_opts > $PUBBER_OUT 2>&1 &
+    tail -f $PUBBER_OUT | grep -m 1 "sending test message #0"
+    kill $(ps ax | fgrep pubber | fgrep java | awk '{print $1}')
+
+done 7< $SRC_LIST
