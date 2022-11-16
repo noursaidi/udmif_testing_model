@@ -1,0 +1,51 @@
+{
+  "points" : {
+    "cooling_coil_status" : {
+      "present_value" : 77
+    },
+    "heating_wheel_percentage_sensor" : {
+      "present_value" : 96
+    },
+    "cooling_coil_percentage_sensor" : {
+      "present_value" : 48
+    },
+    "supply_air_temperature_setpoint" : {
+      "present_value" : 7
+    },
+    "exhaust_air_flowrate_sensor" : {
+      "present_value" : 50
+    },
+    "frost_coil_status" : {
+      "present_value" : 24
+    },
+    "heat_recovery_damper_percentage_sensor" : {
+      "present_value" : 36
+    },
+    "discharge_fan_speed_percentage_sensor" : {
+      "present_value" : 86
+    },
+    "supply_air_temperature_sensor" : {
+      "present_value" : 91
+    },
+    "return_air_temperature_sensor" : {
+      "present_value" : 87
+    },
+    "discharge_air_filter_differential_pressure_sensor" : {
+      "present_value" : 73
+    },
+    "heating_water_valve_percentage_sensor" : {
+      "present_value" : 88
+    },
+    "supply_air_flowrate_sensor" : {
+      "present_value" : 59
+    },
+    "exhaust_fan_speed_percentage_sensor" : {
+      "present_value" : 25
+    },
+    "return_air_filter_differential_pressure_sensor" : {
+      "present_value" : 43
+    }
+  },
+  "timestamp" : "2022-11-16T15:46:14.001Z",
+  "version" : "1.3.14"
+}
