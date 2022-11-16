@@ -19,6 +19,9 @@
         }
       }
     },
+    "cloud": {
+      "auth_type": "RS256"
+    },
     "pointset": {
       "points": {
         "cooling_water_valve_percentage_sensor": {
