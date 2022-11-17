@@ -1,15 +1,19 @@
 #!/bin/bash
+PROJECT_ID=$1
+PUBBER_LIST=$2
+shift 2
+
 ROOT_PATH=$(realpath .)
 UDMIDIR="$HOME/udmi"
-SRC_LIST=pubber_list.txt
 PUBBER_OUT=/tmp/pubber.out
-PROJECT_ID=daq1-273309
 
 cd $UDMIDIR
 ls
 
 
 while read -u 7 device_id pubber_opts; do
+    [[ device_id =~ '#' ]] && continue
+    
     rm -f $PUBBER_OUT && touch $PUBBER_OUT
     echo $device_id
     serial_no=pubber-$RANDOM

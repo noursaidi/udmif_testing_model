@@ -1,6 +1,7 @@
 #!/bin/bash
 # updates pubber opts with all devices in the site model (including devices which were delted from the list)
-OUT=pubber_opts.txt
+OUT=$1
+shift
 
 rm -f $OUT.tmp && touch $OUT.tmp
 
