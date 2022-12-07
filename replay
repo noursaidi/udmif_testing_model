@@ -40,12 +40,10 @@ def main():
   file_paths = glob.glob(messages_path, recursive=True)
 
   print('Replaying messages in RANDOM ORDER')
-  print(validation_dir)
   total = len(file_paths)
   i = 0
   for message_path in file_paths:
     i += 1
-    print(message_path)
     root, ext = os.path.splitext(message_path)
     attributes_path = f'{root}.attr'
     
@@ -68,7 +66,7 @@ def main():
     message_descriptor = '/'.join(message_path.rsplit('/', 2)[1:])
     future = publisher.publish(topic_path, payload, **attributes)
     print(f'published {i}/{total} {message_descriptor} ({future.result()})')
-    time.sleep(0.15) # avoid a message burst which can cause validator issues
+    time.sleep(0.1) # avoid a message burst which can cause validator issues
 
 if __name__ == "__main__":
   main()
